@@ -1,0 +1,18 @@
+# Учебное пособие: Первые шаги с Pycowsay
+
+## Шаг 1: Установите Python
+Убедитесь, что у вас установлен Python 3.7 или выше.
+
+## Шаг 2: Установите библиотеку
+```bash
+pip install pycowsay
+## Шаг 3: Запустите интерпретатор Python
+bash
+python
+## Шаг 4: Импортируйте библиотеку
+python
+import pycowsay
+## Шаг 5: Создайте первую говорящую корову
+python
+result = pycowsay.cowsay("Привет, я корова!")
+print(result)
